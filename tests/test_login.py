@@ -13,7 +13,7 @@ def test_login_failure(login_page):
     with allure.step('Отображается ошибка - Invalid credentials. Please try again.'):
         assert login_page.get_error_message() == 'Invalid credentials. Please try again.'
 
-
+#see you tomorrow
 @allure.feature('Login')
 @allure.story('Login with valid credentials')
 @allure.severity(allure.severity_level.CRITICAL)
